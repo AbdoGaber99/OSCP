@@ -124,8 +124,3 @@
   * [Collecting Volatile Data](my-note/ine-labs/collecting-volatile-data.md)
   * [PDF Analysis](my-note/ine-labs/pdf-analysis.md)
   * [windows event log analysis](my-note/ine-labs/windows-event-log-analysis.md)
-* [test](my-note/test.md)
-
-***
-
-* [Email delivery flow in a U shape](email-delivery-flow-in-a-u-shape.md)
