@@ -78,3 +78,17 @@ TLP: AMBER
 3. IDN / Homograph Attacks
 
 ### IP Enrichment
+
+
+
+```mermaid
+flowchart LR
+    A[Windows Endpoint<br/>Sysmon] -->|Elastic Agent| B[Fleet Server]
+    B --> C[(Elasticsearch)]
+    C --> D[Kibana]
+    D --> E{Detection Rule}
+    E -->|Match| F[Alert]
+    E -->|No Match| G[Log Only]
+    F --> H[SOC Analyst]
+```
+
