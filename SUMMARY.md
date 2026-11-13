@@ -37,6 +37,42 @@
 * [Linux Security Monitoring](cyberspace/linux-security-monitoring.md)
 * [Web Security monitoring](cyberspace/web-security-monitoring.md)
 * [Cyber Threat Intel](cyberspace/cyber-threat-intel.md)
+* [Elastic Stack](cyberspace/elastic-stack/README.md)
+  * [How Integrating Elasticsearch, and Kibana (ELK Stack)](cyberspace/elastic-stack/how-integrating-elasticsearch-and-kibana-elk-stack.md)
+  * [Enabling HTTPS on Kibana](cyberspace/elastic-stack/enabling-https-on-kibana.md)
+  * [Install fleet server](cyberspace/elastic-stack/install-fleet-server.md)
+  * [Install Agent with Fleet](cyberspace/elastic-stack/install-agent-with-fleet.md)
+  * [Logstash](cyberspace/elastic-stack/logstash.md)
+  * [Set up Winlogbeat  for log collection](cyberspace/elastic-stack/set-up-winlogbeat-for-log-collection.md)
+  * [Set up a sysmon](cyberspace/elastic-stack/set-up-a-sysmon.md)
+
+## Windows DFIR
+
+* [Collecting Data](windows-dfir/collecting-data.md)
+* [Initial Access And Execution](windows-dfir/initial-access-and-execution.md)
+* [Persistence Mechanisms](windows-dfir/persistence-mechanisms.md)
+* [Credential Access](windows-dfir/credential-access.md)
+* [Privilege Escalation](windows-dfir/privilege-escalation.md)
+* [Domain Malicious Behavior](windows-dfir/domain-malicious-behavior.md)
+* [Lateral Movement & Pivoting](windows-dfir/lateral-movement-and-pivoting.md)
+* [Exfiltration And Impact](windows-dfir/exfiltration-and-impact.md)
+* [Memory Analysis](windows-dfir/memory-analysis.md)
+* [Advanced Memory Analysis](windows-dfir/advanced-memory-analysis.md)
+* [Scaling and Timeline Analysis](windows-dfir/scaling-and-timeline-analysis.md)
+* [Incident Reporting](windows-dfir/incident-reporting.md)
+
+## Windows Forensic
+
+* [File System and Data Recovery](windows-forensic/file-system-and-data-recovery.md)
+* [Registry Forensics](windows-forensic/registry-forensics.md)
+* [Application Execution](windows-forensic/application-execution.md)
+* [Cloud Storage Forensics](windows-forensic/cloud-storage-forensics.md)
+* [Shell Item Analysis](windows-forensic/shell-item-analysis.md)
+* [USB Device Analysis](windows-forensic/usb-device-analysis.md)
+* [Email Forensics](windows-forensic/email-forensics.md)
+* [Additional Windows Artifact](windows-forensic/additional-windows-artifact.md)
+* [Event Log Analysis](windows-forensic/event-log-analysis.md)
+* [Browser Forensics](windows-forensic/browser-forensics.md)
 
 ## my note
 
@@ -109,14 +145,6 @@
     * [Windows Memory  User Activity](my-note/advanced-endpoint-investigations/memory-analysis/windows-memory-user-activity.md)
     * [Linux Memory Analysis](my-note/advanced-endpoint-investigations/memory-analysis/linux-memory-analysis.md)
     * [Supplemental Memory](my-note/advanced-endpoint-investigations/memory-analysis/supplemental-memory.md)
-* [Elastic Stack](my-note/elastic-stack/README.md)
-  * [How Integrating Elasticsearch, and Kibana (ELK Stack)](my-note/elastic-stack/how-integrating-elasticsearch-and-kibana-elk-stack.md)
-  * [Enabling HTTPS on Kibana](my-note/elastic-stack/enabling-https-on-kibana.md)
-  * [Install fleet server](my-note/elastic-stack/install-fleet-server.md)
-  * [Install Agent with Fleet](my-note/elastic-stack/install-agent-with-fleet.md)
-  * [Logstash](my-note/elastic-stack/logstash.md)
-  * [Set up Winlogbeat  for log collection](my-note/elastic-stack/set-up-winlogbeat-for-log-collection.md)
-  * [Set up a sysmon](my-note/elastic-stack/set-up-a-sysmon.md)
 * [linux log](my-note/linux-log.md)
 * [INE Labs](my-note/ine-labs/README.md)
   * [INE Splunk lab](my-note/ine-labs/ine-splunk-lab.md)
